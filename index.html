@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nightglide: your driving score, kept on your iPhone</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1326;--card:rgba(255,255,255,.07);--line:rgba(255,255,255,.1);--ink:#eef3fb;--dim:#a9b4c8;--accent:#5fd4f0}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(#13203d,#080e1f) fixed;color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 20px 80px}
+h1{font-size:34px;font-weight:600;line-height:1.2;margin:0 0 6px}
+h2{font-size:21px;font-weight:600;margin:40px 0 8px}
+p,li{color:var(--dim)} strong{color:var(--ink);font-weight:600}
+a{color:var(--accent)}
+nav{display:flex;gap:18px;margin-bottom:36px;font-size:15px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:20px 0}
+.card p{margin:0}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:12px 0}
+th,td{text-align:left;vertical-align:top;padding:10px 12px 10px 0;border-bottom:1px solid var(--line);color:var(--dim)}
+th{color:var(--ink);font-weight:600}
+.button{display:inline-block;background:var(--accent);color:#08172a;font-weight:600;text-decoration:none;padding:12px 22px;border-radius:999px;margin-top:8px}
+footer{margin-top:56px;font-size:14px;color:var(--dim)}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="./">Nightglide</a><a href="privacy.html">Privacy policy</a><a href="./#help">Help</a></nav>
+<h1>Nightglide</h1>
+<p>A driving score that stays on your iPhone. Nightglide records your drives automatically, spots harsh braking, sharp acceleration, hard cornering, phone handling and speeding, and gives you a score out of 1000 with trends over time.</p>
+<div class="card"><p><strong>No account. No server. No analytics.</strong> Your drives are stored on your iPhone and nowhere else. Read the <a href="privacy.html">privacy policy</a> for the detail.</p></div>
+
+<h2 id="help">Help</h2>
+<p><strong>A drive wasn't recorded.</strong> Automatic recording needs location access set to <strong>Always</strong>: open the Settings app, then Privacy &amp; Security, Location Services, Nightglide. Leave Nightglide in the app switcher rather than swiping it away, because iOS may stop waking apps that have been force-closed. In Nightglide, Trips &gt; Missing a drive? shows a log of what the app saw.</p>
+<p><strong>The first part of a drive is missing.</strong> iOS takes a moment to wake the app after you set off, so very short trips can start a little late. You can also press Start drive before you leave.</p>
+<p><strong>A trip was recorded when I was a passenger.</strong> Open the trip and switch off "I was driving", or use the button on its card. It then stops counting towards your score.</p>
+<p><strong>How is the score worked out?</strong> Each category (braking, acceleration, cornering, phone handling, speed) starts at 1000 and loses points for events per mile driven over the period you choose. The overall score is the average of the five.</p>
+<p><strong>Moving to a new phone.</strong> Settings &gt; Export all trips saves a file with every trip. Your trips are also part of your iPhone's own backup.</p>
+<p><strong>Something else?</strong> Email <a href="mailto:abrahambossey@gmail.com">abrahambossey@gmail.com</a>.</p>
+
+<h2>Support the app</h2>
+<p>Nightglide is free, with no adverts and nothing to buy. If it's useful to you, you can buy me a coffee. It's entirely optional and unlocks nothing.</p>
+<p><a class="button" href="https://buymeacoffee.com/AbrahamBossey">Buy me a coffee</a></p>
+
+<h2>Safety</h2>
+<p>Don't use your phone while driving. Nightglide needs no attention on the road: look at your results once you've parked. Scores are estimates from your phone's sensors and are for your own interest only.</p>
+<footer>Nightglide is an independent app. Contact: <a href="mailto:abrahambossey@gmail.com">abrahambossey@gmail.com</a></footer>
+</main>
+</body>
+</html>
